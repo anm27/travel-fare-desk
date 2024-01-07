@@ -1,0 +1,76 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,900;1,9..40,900&display=swap");
+
+/* Primary gradient hex probable: #13b3ef */
+
+.font-pacifico {
+  font-family: "Pacifico", cursive;
+}
+
+.font-dm-sans {
+  font-family: "DM Sans", sans-serif;
+}
+
+.bg-black-gradient {
+  background-color: #130f40;
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+}
+
+.text-gradient-black {
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.text-primary-color {
+  color: #00d2e8; /* Replace with your custom color code */
+}
+
+.bg-header {
+  display: inline-block;
+  margin: 0;
+  line-height: 1em;
+  /* background: linear-gradient(to right, #000 50%, #fff 50%); */
+  background: black;
+}
+
+.title-stroke {
+  color: white;
+  font-size: 35px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+/* .text-gradient-primary {
+  color: linear-gradient(180deg, #2694f7, #00d2e8);
+} */
+
+.text-gradient-primary {
+  background-image: linear-gradient(180deg, #2694f7, #00d2e8);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(180deg, #2694f7, #00d2e8);
+}
+
+.btn-bg {
+  background-color: #1b8b00;
+  background-image: linear-gradient(314deg, #1b8b00 0%, #a2d240 74%);
+}
+
+.bg-img-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/travel.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
